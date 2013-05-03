@@ -2,7 +2,7 @@
 #define MAINWIDGET_H
 
 #include <QWidget>
-
+#include <QPushButton>
 class MainWidget : public QWidget
 {
     Q_OBJECT
@@ -10,6 +10,8 @@ class MainWidget : public QWidget
 public:
     MainWidget(QWidget *parent = 0);
     ~MainWidget();
+
+    QPushButton *button;
 };
 
 #endif // MAINWIDGET_H
