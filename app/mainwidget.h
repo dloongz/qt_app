@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QPushButton>
+#include <QString>
 class MainWidget : public QWidget
 {
     Q_OBJECT

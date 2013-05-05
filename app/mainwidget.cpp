@@ -5,7 +5,10 @@ MainWidget::MainWidget(QWidget *parent)
 {
     button = new QPushButton(this);
 
-    button->setText(QString());
+    this->setGeometry(0,0,1000,500);
+
+    button->setText(tr("music"));
+    button->setGeometry(500,250,150,150);
 }
 
 MainWidget::~MainWidget()
